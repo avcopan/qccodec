@@ -13,4 +13,5 @@ as possible.
 """
 
 # Required for parsers to register
+from .orca import *  # noqa:  F403
 from .terachem import *  # noqa:  F403
